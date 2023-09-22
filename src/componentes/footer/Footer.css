@@ -1,0 +1,52 @@
+footer{
+    background: linear-gradient(to right, rgb(139, 23, 2), rgb(214, 55, 27));
+
+    color: #fff;
+    display: flex;
+    margin-top: 0px;
+    height: 350px;
+   padding-left: 100px;
+  
+}
+
+Footer h2{
+
+    color: rgb(129, 72, 6) ;
+    font-size: 50px;
+
+}
+.Serie{
+
+    
+    font-size: 25px;
+    padding-right: 50px;
+}
+.contato{
+    padding-left: 200px;
+    padding-top: 50px;
+
+
+    
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
+.whatsapp{
+
+    width: 60px;
+    height: 60px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+}
+
+.projetos{
+
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.Novos-projetos{
+    padding-left: 200px;
+    padding-top: 50px;
+
+}
