@@ -19,25 +19,25 @@ export default function Main() {
             id:1,
             titulo:'Desenhos',
             sinopse:"Evento de ciência e técnologia",
-            imagem:'src/componentes/img/desenhoshidrica.jpg'
+            imagem:'/img/desenhoshidrica.jpg'
         },
         {
             id:2,
             titulo:'Estágio',
             sinopse:'Projeto do IFMS obrigatório',
-            imagem:'src/componentes/img/estagio.png'
+            imagem:'/img/estagio.png'
         },
         {
             id:3,
             titulo:'Esporte',
             sinopse:'Evento de interclase',
-            imagem:'src/componentes/img/esporte.jpg'
+            imagem:'/img/esporte.jpg'
         },
         {
             id:5,
             titulo:'Cosplay evento',
             sinopse:"Evento de cosplay no supermercado municipal",
-            imagem:'src/componentes/img/cosplay.jpg'
+            imagem:'/img/cosplay.jpg'
         },
     ]
 

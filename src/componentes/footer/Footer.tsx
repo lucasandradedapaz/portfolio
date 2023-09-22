@@ -1,7 +1,7 @@
 import './Footer.css';
-import instagram from "../img/instagram.png";
-import facebook from "../img/facebook.png";
-import whatsapp from "../img/whatsapp-removebg-preview.png";
+import instagram from "/img/instagram.png";
+import facebook from "/img/facebook.png";
+import whatsapp from "/img/whatsapp-removebg-preview.png";
 
  
 
