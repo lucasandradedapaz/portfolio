@@ -1,43 +1,31 @@
- import './Header.css'
- import Link from './../link/Links'
+import './Header.css'
+import LinkNav from '../linknav/LinkNav'
 
-
- function Header(){
-
+function Header(){
     return(
         <header>
             <div>
-            <h2>𝕷𝖚𝖈𝖆𝖘 𝕬𝖓𝖉𝖗𝖆𝖉𝖊 𝖉𝖆 𝕻𝖆𝖟</h2>
+            <img className='logo' src="public/img/logo-removebg-preview.png" alt="" />
+                
             </div>
-
             <nav>
                 <ul>
-                    
                     <li>
-                       <Link texto='Home'/>
+                        <LinkNav url="/" texto='Home'/>
                     </li>
-
                     <li>
-                       <Link texto='Noticias'/>
+                        <LinkNav url="/noticias" texto='Notícia'/>
                     </li>
-
                     <li>
-                        <Link texto='sobre'/>
+                        <LinkNav url="/sobre" texto='Sobre'/>
                     </li>
-
                     <li>
-                        <Link texto='contato'/>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
-
-           
-           
         </header>
-
-
-
     )
+}
 
-} 
 export default Header
